@@ -1,1 +1,45 @@
+<div class="stat">
+    <span>Здоровье</span>
+    <b id="hpText">100 / 100</b>
+  </div>
+  <div class="bar"><div id="hpBar" class="hp-fill"></div></div>
 
+  <div class="stat">
+    <span>Опыт</span>
+    <b id="xpText">0 / 100</b>
+  </div>
+  <div class="bar"><div id="xpBar" class="xp-fill"></div></div>
+
+  <div class="stats-grid">
+    <div><span>⚔️ Сила</span><b id="power">10</b></div>
+    <div><span>🛡️ Защита</span><b id="defense">5</b></div>
+  </div>
+</section>
+
+<section class="panel location">
+  <div class="eyebrow">ТЕКУЩАЯ ЛОКАЦИЯ</div>
+  <h2>🌑 Забытый лес</h2>
+  <p class="muted">В глубине леса скрывается нечто опасное...</p>
+  <div class="monster">👹</div>
+  <h3 id="monsterName">Лесной гоблин</h3>
+  <p class="muted">Уровень 1 · Обычный монстр</p>
+  <button id="fightBtn" class="primary">⚔️ СРАЖАТЬСЯ</button>
+  <p id="battleLog" class="battle-log">Ты чувствуешь присутствие врага.</p>
+</section>
+
+<section class="panel">
+  <div class="eyebrow">ПЕРСОНАЖ</div>
+  <h2>Твоя экипировка</h2>
+  <div class="equipment">
+    <div>🗡️<span>Оружие</span><b>Ржавый меч</b></div>
+    <div>🛡️<span>Броня</span><b>Нет</b></div>
+    <div>💍<span>Аксессуар</span><b>Нет</b></div>
+  </div>
+</section>
+
+<nav class="bottom-nav">
+  <button class="nav-item active">⚔️<span>Мир</span></button>
+  <button class="nav-item" id="characterBtn">🧙<span>Герой</span></button>
+  <button class="nav-item" id="inventoryBtn">🎒<span>Сумка</span></button>
+  <button class="nav-item" id="questsBtn">📜<span>Задания</span></button>
+</nav>
