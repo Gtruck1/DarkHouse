@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header class="top-bar">
     <h1>Dark World</h1>
     <div class="gold">
@@ -18,23 +19,23 @@
     <section class="panel character">
       <div class="eyebrow">ПЕРСОНАЖ</div>
       <h2>Странник</h2>
-      <p class="muted">Уровень <span id="level">1</span></p>
+      <p class="muted">Уровень <span id="levelText">1</span></p>
 
       <div class="stat">
         <span>Здоровье</span>
         <b id="hpText">100 / 100</b>
       </div>
-      <div class="bar"><div id="hpBar" class="hp-fill"></div></div>
+      <div class="bar"><div id="hpBar" class="hp-fill" style="width: 100%;"></div></div>
 
       <div class="stat">
         <span>Опыт</span>
         <b id="xpText">0 / 100</b>
       </div>
-      <div class="bar"><div id="xpBar" class="xp-fill"></div></div>
+      <div class="bar"><div id="xpBar" class="xp-fill" style="width: 0%;"></div></div>
 
       <div class="stats-grid">
-        <div><span>⚔️ Сила</span><b id="power">10</b></div>
-        <div><span>🛡️ Защита</span><b id="defense">5</b></div>
+        <div><span>⚔️ Сила</span><b id="powerText">10</b></div>
+        <div><span>🛡️ Защита</span><b id="defenseText">5</b></div>
       </div>
     </section>
 
@@ -50,7 +51,7 @@
     </section>
 
     <section class="panel">
-      <div class="eyebrow">ПЕРСОНАЖ</div>
+      <div class="eyebrow">ЭКИПИРОВКА</div>
       <h2>Твоя экипировка</h2>
       <div class="equipment">
         <div>🗡️<span>Оружие</span><b>Ржавый меч</b></div>
